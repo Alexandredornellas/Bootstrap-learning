@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="components/style.css">
+    <link rel="stylesheet" type="text/css" href="components/css/style.css">
     <script type="text/javascript" src="bootstrap-5.1.3-dist/js/bootstrap.min.js"> </script>
-    <script type="text/javascript" src="components/js/começo.js"></script>
     <script src="https://kit.fontawesome.com/f5dc66c0f8.js" crossorigin="anonymous"></script>
     <title>Bootstrap learning</title>
 </head>
@@ -44,11 +43,23 @@
           </nav>
     </header>
     <header>
-        <div style="display: flex; justify-content: center;" class="mt-5">
+        <div class="mt-1 welcome">
           <i class="fas fa-exclamation-triangle fa-3x" style="color: yellow;"></i>
-          <h1>CAUTION, test area</h1>
+          <h1>Caution, test zone</h1>
           <i class="fas fa-exclamation-triangle fa-3x" style="color: yellow;"></i>
         </div>
     </header>
+    <section>
+        <div class="counter">
+        <h3>Days since the last accident:  </h3>
+          <span id="currentNumber" style="font-size: 2em;">0</span>
+              <button name="decrement" onclick="decrement()">-</button>
+              <button name="increment" onclick="increment()">+</button>
+        </div>
+        <div class="restart_counter">
+          <button id="zero">Zerar</button>
+        </div>
+    </section>
+<script type="text/javascript" src="components/js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap');
+
+.welcome{
+    background-color: #f0f0f0;
+    display: flex; 
+    justify-content: center;
+    padding: 1em;
+}
+.counter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.counter button{
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 35px;
+    margin-left: 1em;
+    width: 35px;
+
+}
+
+.counter span{
+    margin-left: .5em;
+}
+
+.restart_counter{
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.restart_counter button{
+    background-color: #f0f0f0;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
