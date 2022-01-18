@@ -15,12 +15,9 @@
 }
 
 .counter button{
-    background-color: #fff;
-    border: 1px solid;
+    min-width: 35px;
     border-radius: 50%;
-    height: 35px;
     margin-left: 1em;
-    width: 35px;
 
 }
 
@@ -34,10 +31,8 @@
     margin-top: .5em;
 }
 
-.restart_counter button{
-    background-color: #f0f0f0;
-    border: 1px solid;
-    border-radius: 5px;
+.todo_list_challenge{
+    margin: 20px 20%;
 }
 
 h1, h2, h3, h4, h5, h6{

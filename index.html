@@ -53,12 +53,25 @@
         <div class="counter">
         <h3>Days since the last accident:  </h3>
           <span id="currentNumber" style="font-size: 2em;">0</span>
-              <button name="decrement" onclick="decrement()">-</button>
-              <button name="increment" onclick="increment()">+</button>
+              <button name="decrement" class="btn btn-outline-secondary" onclick="decrement()">-</button>
+              <button name="increment" class="btn btn-outline-secondary" onclick="increment()">+</button>
         </div>
         <div class="restart_counter">
-          <button id="zero">Zerar</button>
+          <button id="zero" class="btn btn-outline-secondary">Zerar</button>
         </div>
+    </section>
+    <hr>
+    <section class="todo_list_challenge">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Insert a new task here" aria-label="Insert a new task here" aria-describedby="button-addon2" id="writeCheck">
+        <button class="btn btn-outline-secondary" type="button" id="insertNewCheckTask" onclick="sendValue()">Add new task</button>
+      </div>
+      <div class="check_boxes">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+          <label class="form-check-label" for="inlineCheckbox1">Count to 10</label>
+        </div>
+      </div>
     </section>
 <script type="text/javascript" src="components/js/scripts.js"></script>
 </body>
