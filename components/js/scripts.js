@@ -37,5 +37,26 @@ var inputValue = 0
 
 function sendValue() {
     inputValue = getInputWrapper.value;
-    console.log(inputValue);
+    adcElemento();
 }
+
+function adcElemento(){
+    var lista = document.getElementById ("listaElementos");
+    var li = document.createElement("li");
+    lista.appendChild(li);
+
+    //creating input
+    var input = document.createElement("input");
+    lista.appendChild(input);
+    input.setAttribute('type', 'checkbox');
+    input.classList.add('form-check-input');
+
+    //creating label
+    var label = document.createElement("label");
+    lista.appendChild(label);
+    label.textContent = inputValue;
+    label.classList.add('form-check-label');
+}
+
+
+  
