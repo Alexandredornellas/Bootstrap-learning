@@ -53,9 +53,15 @@ ul li{
     flex-direction: column;
 }
 
+.side_elements{
+    display: flex;
+    justify-content: space-between;
+}
 .other_exercices{
     margin-left: 10%;
 }
+
+
 
 
 
